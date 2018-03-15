@@ -1,0 +1,5 @@
+lesson3: -t @Lesson3_ex1 --format html --out lesson3.html --format pretty
+area: -t @area --format html --out area.html --format pretty
+volume: -t @volume --format html --out volume.html --format pretty
+
+any: -t @Lesson3_ex1,@area,@volume --format html --out all_report.html --format pretty
